@@ -83,4 +83,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Set api_base_url
+  config.api_base_url = 'http://localhost:3000/rest'
 end
