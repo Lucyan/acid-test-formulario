@@ -1,7 +1,7 @@
 <h1>Login</h1>
 <p>Ingresa tu E-Mail e imagen biométrica</p>
 
-<%= form_tag({controller: "formulario", action: "respuesta"}, multipart: true, method: "post") do %>
+<%= form_tag({controller: "forms", action: "respuesta"}, multipart: true, method: "post") do %>
     <p>
         <%= label_tag(:email, "E-Mail") %>
         <%= text_field_tag(:email) %>

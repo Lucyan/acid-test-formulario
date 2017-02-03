@@ -1,4 +1,4 @@
-class FormularioController < ApplicationController
+class FormsController < ApplicationController
   # Vista principal de formulario
   def index
   end
@@ -14,7 +14,7 @@ class FormularioController < ApplicationController
       api_response = HTTParty.post("#{Rails.application.config.api_base_url}/login",
                       :body => { 'email' => params[:email], 'image' => image_string, 'user_agent' => request.user_agent }.to_json,
                       :headers => { 'Content-Type' => 'application/json', 'Accept' => 'application/json' })
-      @response = 'OK' if api_response.code == 401
+      @response = 'OK' if api_response.code == 200
     end
   end
 end
