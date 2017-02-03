@@ -11,11 +11,13 @@ Aplicación que contiene el formulario que realiza la llamada a la api del test
 * Ruby 2.3.3
 * Rails 5.0.1
 * postgresql
+* API del test [https://github.com/Lucyan/acid-test](https://github.com/Lucyan/acid-test)
 
 # Instalación
 
 * Clonar repositorio local
 * Ejecutar comando 'bundle install'
+
 
 # Ejecución
 
