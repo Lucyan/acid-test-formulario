@@ -85,5 +85,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Set api_base_url
-  config.api_base_url = 'http://localhost:3000/rest'
+  config.api_base_url = 'https://powerful-lake-81353.herokuapp.com/rest'
 end
