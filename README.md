@@ -34,3 +34,8 @@ Aplicación que contiene el formulario que realiza la llamada a la api del test
 config/environments/development.rb
 
 config.api_base_url = 'http://localhost:3000/rest'
+
+
+# Repositorio api
+
+[https://github.com/Lucyan/acid-test](https://github.com/Lucyan/acid-test)
